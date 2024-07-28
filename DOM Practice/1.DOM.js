@@ -9,7 +9,8 @@ btn.addEventListener('mouseover',(eventInfo)=>{
     //dblclick,mouseover,mouseleave...   
     console.log(eventInfo);
     //btn.textContent +=', Hello There!';
-    btn.innerHTML ='<b>Hello</b>';
+    const yo="hello";
+    btn.innerHTML =`<b>${yo}</b>`;
     btn.style.backgroundColor='red';
 })
 btn.addEventListener('mouseleave',(eventInfo)=>{
